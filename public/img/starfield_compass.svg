@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        stroke: #e6e6e6;
+      }
+
+      .cls-1, .cls-5 {
+        fill: #0e1218;
+      }
+
+      .cls-1, .cls-4 {
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: .5px;
+      }
+
+      .cls-2, .cls-3, .cls-6, .cls-4 {
+        fill: none;
+      }
+
+      .cls-3, .cls-6 {
+        stroke: #0e1218;
+      }
+
+      .cls-7 {
+        fill: #e6e6e6;
+      }
+
+      .cls-6 {
+        stroke-miterlimit: 10;
+        stroke-width: .5px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Layer_2-2" data-name="Layer 2">
+      <circle class="cls-1" cx="128" cy="128" r="127"/>
+    </g>
+    <g id="Layer_3" data-name="Layer 3">
+      <path class="cls-7" d="m216.75,46.5c-22.02-23.97-53.63-39-88.75-39S61.27,22.53,39.25,46.5h177.5Z"/>
+      <path class="cls-7" d="m39.25,209.5c22.02,23.97,53.63,39,88.75,39s66.73-15.03,88.75-39H39.25Z"/>
+    </g>
+    <g id="Layer_6" data-name="Layer 6">
+      <line class="cls-4" x1="36.5" y1="204.5" x2="219.5" y2="204.5"/>
+    </g>
+    <g id="Layer_5" data-name="Layer 5">
+      <circle class="cls-5" cx="128" cy="58" r="32.5"/>
+    </g>
+    <g id="Layer_4" data-name="Layer 4">
+      <ellipse class="cls-7" cx="128" cy="57" rx="28.5" ry="27.5"/>
+    </g>
+    <g id="Layer_7" data-name="Layer 7">
+      <path class="cls-5" d="m110.5,76.33s11.07,9.52,25.22,5.03c14.15-4.48,17.33-16.1,17.33-16.1,0,0,3-7.91.38-15.96-2.62-8.04-7.26-11.32-7.26-11.32-1.19,4.75-4.22,14.09-12.2,23-8.76,9.79-18.78,13.8-23.47,15.34h0Z"/>
+    </g>
+    <g id="Layer_9" data-name="Layer 9">
+      <ellipse class="cls-6" cx="108.5" cy="70" rx="3" ry="4.5" transform="translate(-17.72 97.23) rotate(-45)"/>
+      <path class="cls-3" d="m118.5,73.5s-4.5-15.89-19-11.1"/>
+      <path class="cls-3" d="m124.28,69.5s-10.28-15.72-24.78-12.11"/>
+      <path class="cls-3" d="m131.2,63.86s-16.6-16.17-31.7-11.52"/>
+      <path class="cls-3" d="m134.5,61.5s-22.98-15.34-35-11.33"/>
+      <path class="cls-3" d="m136.46,58s-25.26-14.83-34.96-12.18"/>
+      <path class="cls-3" d="m104.25,41.6c2.17.41,18.38,3.46,26.75,3.4.93,0,2.85-.06,5-1,.87-.38,4.85-2.13,6.1-6.35.61-2.08.33-3.96,0-5.15"/>
+      <path class="cls-3" d="m105.46,39.8s18.88,1.47,26.58-3.71,5.8-5.38,5.8-5.38"/>
+      <path class="cls-3" d="m108.8,35.82s11.47,1.24,16.58-.9,7.12-5.42,7.12-5.42"/>
+    </g>
+    <g id="Layer_11" data-name="Layer 11">
+      <path class="cls-2" d="m118.35,73.04s.15,4.46-5.85,5.46"/>
+      <path class="cls-2" d="m124.28,69.5s2.72,9.5-9.28,10.5"/>
+      <path class="cls-2" d="m131.05,63.86s10.17,14.05-11.55,17.64"/>
+      <path class="cls-2" d="m136.3,57.91s9.7,5.31,18.2,1.7"/>
+      <path class="cls-2" d="m132.33,60.99s23.45,7.75,13.41,14.53c-10.03,6.78-25.24,5.95-25.24,5.95"/>
+    </g>
+    <g id="Layer_12" data-name="Layer 12">
+      <line class="cls-4" x1="37.5" y1="50.75" x2="97.5" y2="50.75"/>
+      <line class="cls-4" x1="158.5" y1="50.75" x2="218.5" y2="50.75"/>
+    </g>
+  </g>
+</svg>
