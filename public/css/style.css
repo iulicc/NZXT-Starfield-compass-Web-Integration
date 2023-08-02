@@ -92,17 +92,16 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 35px;
 }
 
 .custom_text_container .title {
-  font-size: 3rem;
+  font-size: 30px;
   font-weight: 800;
 }
 
 .custom_text_container .subtitle {
-  font-size: 2rem;
-  margin-top: 10px;
+  font-size: 20px;
   opacity: 80%;
 }
 
@@ -114,24 +113,24 @@ body {
   width: 80%;
   height: auto;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
-.info_container p {
+.info_container {
   color: var(--primary-color);
 }
 
 .info_container .info {
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: 800;
 }
 
 .info_container .title {
-  font-size: 1.5rem;
+  font-size: 15px;
   opacity: 80%;
 }
 .divider {
-  height: 100px;
+  height: 50px;
   border: 1px solid var(--primary-color);
-  opacity: 80%;
+  opacity: 50%;
 }
