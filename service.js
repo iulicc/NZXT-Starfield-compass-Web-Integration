@@ -1,8 +1,8 @@
 import { Service } from 'node-windows'
 
 const svc = new Service({
-    name: 'NZXT Starfield Web Integration',
-    description: 'A web server for the NZXT Starfield Web Integration',
+    name: 'NZXT Starfield Compass Web Integration',
+    description: 'Web server for the Starfield compass web integration',
     script: './index.js'
 })
 
