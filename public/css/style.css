@@ -1,6 +1,6 @@
 @font-face {
-  font-family: PrimeRegular;
-  src: url(/public/fonts/Prime\ Regular.otf);
+  font-family: Prime;
+  src: url(/public/fonts/Prime.otf);
 }
 
 :root {
@@ -52,7 +52,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: PrimeRegular;
+  font-family: Prime;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
