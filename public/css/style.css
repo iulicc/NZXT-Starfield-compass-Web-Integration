@@ -1,6 +1,6 @@
 @font-face {
   font-family: Prime;
-  src: url(/public/fonts/Prime.otf);
+  src: url(./public/fonts/Prime.otf);
 }
 
 :root {
