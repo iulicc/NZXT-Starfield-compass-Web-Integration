@@ -1,8 +1,60 @@
+@font-face {
+  font-family: PrimeRegular;
+  src: url(/public/fonts/Prime\ Regular.otf);
+}
+
+:root {
+  --primary-color: #e6e6e6;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: futura_bk_bold;
+  font-family: PrimeRegular;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
 html {
@@ -17,27 +69,69 @@ html {
 body {
   position: relative;
   display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 640px;
   height: 640px;
   border-radius: 50%;
-  background-color: white;
+  background-color: var(--primary-color);
   background-image: url("../img/starfield_compass.svg");
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
   overflow: hidden;
-  color: var(--text_color);
 }
 
-.temp_wrapper {
-  display: block;
-  background-color: rgb(80, 109, 99);
-  width: 100%;
-  height: 30%;
-  top: -500px;
-}
-
-p {
+.custom_text_container {
   position: relative;
-  color: white;
+  width: 100%;
+  height: auto;
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.custom_text_container .title {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.custom_text_container .subtitle {
+  font-size: 2rem;
+  margin-top: 10px;
+  opacity: 80%;
+}
+
+.info_wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.info_container p {
+  color: var(--primary-color);
+}
+
+.info_container .info {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.info_container .title {
+  font-size: 1.5rem;
+  opacity: 80%;
+}
+.divider {
+  height: 100px;
+  border: 1px solid var(--primary-color);
+  opacity: 80%;
 }
