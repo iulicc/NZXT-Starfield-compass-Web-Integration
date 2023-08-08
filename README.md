@@ -9,7 +9,7 @@
 
 </div>
 
-An interface for the NZXT AIO pump screen inspired by the Starfield compass shown on the gameplay videos. The interface includes CPU and GPU temperatures + actual RAM usage.
+An interface for the NZXT AIO pump screen inspired by the Starfield HUD compass shown on the gameplay videos. The interface includes CPU and GPU temperatures + actual RAM usage.
 
 ## ✅ Quick Usage
 Paste the following url in NZXT CAM: https://iulicc.github.io/NZXT-Starfield-compass-Web-Integration/
