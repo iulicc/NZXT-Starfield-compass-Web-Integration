@@ -16,16 +16,20 @@ function get_cookie(cookie_name) {
   document.body.style.height = VIEWSTATE + 'px';
   
 
-  window.nzxt = {
-    v1: {
-      onMonitoringDataUpdate: (data) => {
-        const { cpus, gpus, ram } = data;
-        update_cpu(cpus[0].temperature);
-        update_gpu(gpus[0].temperature);
-        update_ram(ram);
+    window.nzxt = {
+      v1: {
+        onMonitoringDataUpdate: (data) => {
+          const { cpus, gpus, ram } = data;
+          update_cpu(cpus[0].temperature);
+          if (gpus.length > 1) {
+            update_gpu(gpus[1].temperature); // If there are more than one GPU (integrated GPU scenario where index 0 represents the integrated one)
+          } else {
+            update_gpu(gpus[0].temperature); // If there is only one GPU
+          }
+          update_ram(ram);
+        },
       },
-    },
-  };
+    };
   
   const cpu_temp = document.getElementById('cpu_temp');
   function update_cpu(temp) {
